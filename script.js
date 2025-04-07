@@ -1,5 +1,4 @@
 function fibonacci(num) {
-    // Base case: If num is 0, return 0
     if (num === 0) {
         return 0;
     }
@@ -8,7 +7,7 @@ function fibonacci(num) {
         return 1;
     }
 
-    return fibonacci(num - 1) + fibonacci(num - 2);
+    return fibonacci(num - 2) + fibonacci(num - 1);
 }
 
 module.exports = fibonacci;
