@@ -1,8 +1,8 @@
 function fibonacci(num) {
 // your code here
-	if(n==1 || n == 0)
-		return n;
-	return fibonacci(n-1)+fibonacci(n-2);
+	if(num ==0 || num == 1)
+		return num;
+	return fibonacci(num-1)+fibonacci(num-2);
 }
 
 module.exports = fibonacci;
